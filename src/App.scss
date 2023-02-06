@@ -6,10 +6,20 @@
 }
 
 .App{
-  color: #FFFFFF;
+  color: #000000;
   font-family: 'Merienda', cursive;
 }
 
-h1, h2{
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+	&:hover{
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+}
+
+h1, h2, p, ul, li{
 	margin: 0;
 }

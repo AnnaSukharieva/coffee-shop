@@ -1,0 +1,21 @@
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 52px;
+	nav{
+		ul{
+			list-style-type: none;
+			display: flex;
+			position: relative;
+			&:first-child::before{
+				content: url(../../../public/icons/coffee-beans.svg);
+				position: absolute;
+				top: -20px;
+				left: 5px;
+			}
+			li{
+				padding-right: 40px;
+			}
+		}
+}
+}

@@ -1,0 +1,39 @@
+.best-goods{
+	background-image: url(../../../../public/img/best-boods-bg.jpg);
+	padding: 80px 0 110px 0;
+	text-align: center;
+	h2{
+		font-size: 24px;
+		padding-bottom: 39px;
+	}
+	.cards{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		.card{
+			background-color: rgba(255, 255, 255, 0.65);
+			box-sizing: border-box;
+			width: 220px;
+			height: 240px;
+			padding: 22px 21px;
+			margin-bottom: 25px;
+			&:last-child{
+				margin-bottom: 25px;
+			}
+			img{
+				height: 130px;
+				width: auto;
+			}
+			h3{
+				font-size: 14px;
+				line-height: 20px;
+			}
+			.price{
+				font-weight: 700;
+				font-size: 14px;
+				line-height: 20px;
+				text-align: right;
+			}
+		}
+	}
+}

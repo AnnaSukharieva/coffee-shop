@@ -1,10 +1,15 @@
 .promo{
+	color: #ffffff;
 	background-image: url(../../../../public/img/promo_bg.jpg);
 	background-size: cover;
 	text-align: center;
-	height: 640px;
+	height: 100vh;
+	position: relative;
 	.container{
-		padding: 110px 0 200px 0 ;
+		position: absolute;
+		top: 50%; 
+		left: 50%;                        /* 3 */
+   	transform: translate(-50%, -50%);
 		h1{
 			font-weight: 700;
 			font-size: 40px;
@@ -12,22 +17,24 @@
 			padding-bottom: 20px;
 		}
 		.info{
-			padding-top: 34px;
+			padding: 34px 0 20px 0;
 			h2{
 				font-weight: 700;
 				font-size: 24px;
-				padding-bottom: 20px;
+				margin-bottom: 20px;
 		}
 		}
-		.line-container{
-			margin: 0 auto;
-			display: flex;
-			width: 200px;
-			justify-content: space-between;
-			align-items: center;
-			.line{
-				width: 60px;
-			}
+		a{
+			font-weight: 700;
+			font-size: 14px;
+			width: 120px;
+			padding: 10px 42px;
+			border: 1px solid #FFFFFF;
+			filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+			border-radius: 3px;
+		}
+		svg g path{
+			fill: #FFFFFF
 		}
 	}
 
