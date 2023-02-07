@@ -1,15 +1,18 @@
 import './App.scss';
-import Promo from './components/main-page/promo/promo';
-import About from './components/main-page/about/about';
-import BestGoods from './components/main-page/best-goods/best-boods';
+import Main from './components/main-page/main-page';
+import Store from './components/store/store';
+import { BrowserRouter as Router, Route, Routes, Link, } from "react-router-dom";
 
 function App() {
+
   return (
-    <div className="App">
-      <Promo></Promo>
-      <About></About>
-      <BestGoods></BestGoods>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Main />} />
+        <Route path='/our-coffe' element={<Store />} />
+
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,0 +1,89 @@
+.market {
+	padding: 60px 0 32px 0;
+	font-size: 14px;
+	.find-menu {
+		display: flex;
+		justify-content: space-between;
+		max-width: 700px;
+		margin: 0 auto;
+		.search {
+			display: flex;
+			align-items: center;
+			.input {
+				padding-left: 22px;
+				input {
+					background: #ffffff;
+					box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+					border: none;
+					border-radius: 4px;
+					width: 160px;
+					padding: 6px 0 6px 34px;
+				}
+			}
+		}
+		.filter {
+			display: flex;
+			align-items: center;
+			.filters {
+				ul {
+					display: flex;
+					list-style-type: none;
+					padding-left: 22px;
+					li {
+						padding-right: 5px;
+						&:last-child {
+							padding-right: 0;
+						}
+						button {
+							background: #ffffff;
+							box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+							border: none;
+							border-radius: 4px;
+							padding: 6px 20px 6px 20px;
+							&:hover {
+								cursor: pointer;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.cards {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-top: 60px;
+		margin-bottom: -60px;
+		.card {
+			background-color: #ffffff;
+			border-radius: 8px;
+			box-sizing: border-box;
+			box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+			width: 220px;
+			padding: 22px 21px;
+			margin-bottom: 60px;
+			text-align: center;
+			img{
+				height: 130px;
+
+				width: auto;
+				padding-bottom: 14px;
+			}
+			h3{
+				font-size: 14px;
+				padding-bottom: 14px;
+			}
+			.country{
+				font-size: 14px;
+				text-align: right;
+				padding-bottom: 14px;
+			}
+			.price{
+				font-weight: 700;
+				font-size: 14px;
+				text-align: right;
+			}
+		}
+	}
+}

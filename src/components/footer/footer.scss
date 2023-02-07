@@ -1,0 +1,16 @@
+.footer {
+	padding-bottom: 21px;
+	a {
+		color: #000;
+	}
+	.wrapper {
+		padding-bottom: 30px;
+		nav {
+			display: flex;
+			justify-content: center;
+			ul:first-child::before {
+				content: url(../../../public/icons/coffee-beans-dark.svg);
+			}
+		}
+	}
+}

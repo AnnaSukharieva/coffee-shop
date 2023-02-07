@@ -1,5 +1,5 @@
 .wrapper{
-	width: 90%;
+	max-width: 1150px;
 	margin: 0 auto;
 	padding-top: 52px;
 	nav{
@@ -7,6 +7,7 @@
 			list-style-type: none;
 			display: flex;
 			position: relative;
+			margin-left: 17px;
 			&:first-child::before{
 				content: url(../../../public/icons/coffee-beans.svg);
 				position: absolute;

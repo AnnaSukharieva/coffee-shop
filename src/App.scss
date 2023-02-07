@@ -5,9 +5,10 @@
 	margin: 0 auto;
 }
 
-.App{
+.App, ul, li, h1, h2, h3, p, input, div, button{
   color: #000000;
   font-family: 'Merienda', cursive;
+  margin: 0;
 }
 
 a{
@@ -18,8 +19,4 @@ a{
 		text-decoration: none;
 	}
 
-}
-
-h1, h2, p, ul, li{
-	margin: 0;
 }

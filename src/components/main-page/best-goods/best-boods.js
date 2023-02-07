@@ -10,11 +10,13 @@ const BestGoods = () => {
 
 	const cardsInner = items.map((item) => {
 		return (
-			<div className="card" key={item.id}>
-				<img src={item.link} alt={item.name} />
-				<h3 className='title'>{item.name}</h3>
-				<div className="price">{item.price}$</div>
-			</div>
+			<a href="">
+				<div className="card" key={item.id}>
+					<img src={item.link} alt={item.name} />
+					<h3 className='title'>{item.name}</h3>
+					<div className="price">{item.price}$</div>
+				</div>
+			</a>
 		)
 	})
 
