@@ -2,14 +2,18 @@ import './about-store.scss';
 import '../../../App.scss'
 import Grains from '../../grains-devider/grains-devider';
 
-const AboutStore = () => {
+const AboutStore = (props) => {
+	const info = {
+
+	}
+
 	return (
 		<div className="about-store">
 			<div className="picture">
-				<img src="img/store/girl-about.jpg" alt="Girl with a cap of coffee" />
+				<img src={props.link} alt={props.alt} />
 			</div>
 			<div className="text">
-				<h3 className="title">About our beans</h3>
+				<h3 className="title">{props.title}</h3>
 				<Grains></Grains>
 				<article>
 					<p>

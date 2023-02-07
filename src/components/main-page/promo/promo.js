@@ -14,7 +14,7 @@ const Promo = () => {
 						<h2>We makes every day full of energy and taste</h2>
 						<h2>Want to try our beans?</h2>
 					</div>
-					<a href="">More</a>
+					<a href="#about">More</a>
 			</div>
 			
 			</div>

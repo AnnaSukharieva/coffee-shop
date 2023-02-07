@@ -4,12 +4,12 @@ import About from './about/about';
 import BestGoods from './best-goods/best-boods';
 import Footer from '../footer/footer';
 
-function Main() {
+function Main(props) {
 	return (
 		<div className="App">
 			<Promo></Promo>
 			<About></About>
-			<BestGoods></BestGoods>
+			<BestGoods products={props.products}> </BestGoods>
 			<Footer></Footer>
 		</div>
 	);

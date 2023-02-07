@@ -4,17 +4,17 @@ import AboutStore from "./about-store/about-store";
 import Footer from "../footer/footer";
 import Market from "./market/market";
 
-const Store = () => {
+const PleasureSection = (props) => {
 	return (
 		<>
-			<WholeHeader></WholeHeader>
+			<WholeHeader bg="img/header_bg_2.png"></WholeHeader>
 			<div className="container">
-				<AboutStore></AboutStore>
+				<AboutStore title={props.title} link={props.link} alt={props.alt}></AboutStore>
 				<hr style={{ width: '240px' }} />
-				<Market></Market>
+				<Market products={props.products}></Market>
 				<Footer ></Footer>
 			</div></>
 	)
 }
 
-export default Store;
+export default PleasureSection;

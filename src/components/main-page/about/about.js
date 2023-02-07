@@ -4,7 +4,7 @@ import Grains from "../../grains-devider/grains-devider";
 
 const About = () => {
 	return (
-		<div className="container about">
+		<div className="container about" id="about" >
 			<h2>About Us</h2>
 			<Grains></Grains>
 			<article className="about__article">
